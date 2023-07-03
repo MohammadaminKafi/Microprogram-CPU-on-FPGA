@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/ISE Projects/Final_Project_Ult/test_motherboard_long_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test_motherboard_long" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="13" />
+   <wvobject fp_name="/test_motherboard_long/led" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">led[7:0]</obj_property>
+      <obj_property name="ObjectShortName">led[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/sseg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sseg[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sseg[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/processor_clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">processor_clk</obj_property>
+      <obj_property name="ObjectShortName">processor_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/uut/out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">out[15:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/uut/dolce_far_niente/CAR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">CAR[6:0]</obj_property>
+      <obj_property name="ObjectShortName">CAR[6:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/uut/dolce_far_niente/PC_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">PC_out[10:0]</obj_property>
+      <obj_property name="ObjectShortName">PC_out[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/uut/dolce_far_niente/AR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AR[10:0]</obj_property>
+      <obj_property name="ObjectShortName">AR[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/I" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">I</obj_property>
+      <obj_property name="ObjectShortName">I</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/S" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">S</obj_property>
+      <obj_property name="ObjectShortName">S</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/Z" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Z</obj_property>
+      <obj_property name="ObjectShortName">Z</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/HALT" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">HALT</obj_property>
+      <obj_property name="ObjectShortName">HALT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_motherboard_long/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+</wave_config>
